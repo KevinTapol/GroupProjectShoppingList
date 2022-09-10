@@ -46,7 +46,7 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
 
 NOTES:
 09/01/2022
-Updated API in .env file. Melinna's database is: mongodb+srv://thegogetters:wegoget@shoppin-it.lcw3nyl.mongodb.net/?retryWrites=true&w=majority
+Updated API in .env file.
 
 9/2/2022
 Fixed CSS linking (issue was that it needed to point to CSS subfolder) and did some basic styling on the main page - Donny

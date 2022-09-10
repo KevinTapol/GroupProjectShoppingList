@@ -5,12 +5,16 @@ const app = express()
 const mongoose = require('mongoose')
 // passport.js is acting as user authentication
 const passport = require('passport')
+// stores user cookie for user sessions localy on client side for a set duration
 const session = require('express-session')
+// stores user sessions in a collection on MongoDB for a set duration
 const MongoStore = require('connect-mongo')(session)
 // flash is being used as a message success/warning/error system 
 const flash = require('express-flash')
 const logger = require('morgan')
+// require function that allows us to connect to our database
 const connectDB = require('./config/database')
+//This is where server.js acts as a router setting up routes telling our server where to direct traffic to the appropriate router which is going to send it to the appropriate controller
 // declared variable directing to the main.js file in the routes folder
 const mainRoutes = require('./routes/main')
 // declared variable directing to the todos.js in the routes folder
@@ -21,13 +25,14 @@ require('dotenv').config({ path: './config/.env' })
 
 // Passport config
 require('./config/passport')(passport)
-
+// This is where we call the function connectDB() to connect to our DB which is from our config folder database
 connectDB()
 // templating langquage aka view engine that renders our html
 app.set('view engine', 'ejs')
 // sets location for static assests in the public folder for client side rendering images, css, and js event listeners
 app.use(express.static('public'))
 // replaces body-parser
+// parses incoming requests with urlencoded payloads
 app.use(express.urlencoded({ extended: true }))
 // parses JSON content from incoming requests
 app.use(express.json())
@@ -36,6 +41,7 @@ app.use(logger('dev'))
 
 // Sessions
 // creates and stores user login in the database as a collection named sessions
+// we should put the secret in the .env file 
 app.use(
   session({
     secret: 'keyboard cat',
