@@ -1,3 +1,24 @@
+<td width="50%" valign="top"> <!--Start of Shoppin' It taking 50% of view window-->
+      <h3 align="center">Shoppin' It (Group Project)</h3>
+      <br /> <!--Click the Shoppin'It image to open a new window to Nasa API website-->
+      <a target="_blank" href="https://group-project-shoppin-it.herokuapp.com/">
+        <img src="images/ShoppinIt.png" width="100%"  alt="#"/>
+      </a><a target="_blank" href="https://group-project-shoppin-it.herokuapp.com/">
+        <img src="images/ShoppinI.png" width="100%"  alt="#"/>
+      </a>
+      <br />
+      <p align="center"> <!--Click repo icon link to open a new window to Shoppin'It Group Project GitHub repo-->
+      <a target="_blank" href="https://github.com/KevinTapol/GroupProjectShoppingList" >
+        <img src="https://img.shields.io/static/v1?label=|&message=REPO&color=23555f&style=plastic&logo=github&logo-color=white"/>
+      </a> <!--Click website icon link to open a new window to Shoppin'It Group Project website-->
+      <a target="_blank" href="https://group-project-shoppin-it.herokuapp.com/" >
+        <img src="https://img.shields.io/static/v1?label=|&message=WEBSITE&color=cdf998&style=plastic&logo=wordpress&logo-color=white"/>
+      </a>
+      </p> <!--Desciption of technologies and functionality of Shoppin'It Group Project-->
+        <p><strong>MVC, HTML, CSS, JS, Node.js, Express.js, Mongoose, MongoDB, Passport.js, Session, Flash, Morgan, dotenv, Git/Github, Heroku</strong> - Signup to create an account and login to your groceries list. Full stack MVC CRUD app allowing you get your grocery list, add new groceries, update your grocery list by marking out groceries shopped and delete groceries.Hosted on Heroku for back end application.</p>
+    </td> <!--End of Shoppin'It Group Project-->
+
+
 # Introduction
 
 A Simple ToDo App is built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app 

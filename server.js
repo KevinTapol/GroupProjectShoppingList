@@ -11,6 +11,7 @@ const session = require('express-session')
 const MongoStore = require('connect-mongo')(session)
 // flash is being used as a message success/warning/error system 
 const flash = require('express-flash')
+// morgan can access all the information from an HTTP request and response via custom tokens
 const logger = require('morgan')
 // require function that allows us to connect to our database
 const connectDB = require('./config/database')
