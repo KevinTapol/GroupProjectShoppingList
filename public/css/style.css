@@ -49,6 +49,19 @@
     text-align: center;
   }
   
+  /* added my social links */
+  footer {
+    text-align: center;
+  }
+  .profile a,
+  .social a {
+    color: blue;
+  }
+
+  .profile a:hover,
+  .social a:hover {
+    color: purple;
+  }
   /* under here is the css for the main page login, sign up and h1*/
   
   .loginLinks {
