@@ -7,10 +7,10 @@
       <br />
       <p align="center"> <!--Click repo icon link to open a new window to Shoppin'It Group Project GitHub repo-->
       <a target="_blank" href="https://github.com/KevinTapol/GroupProjectShoppingList" >
-        <img src="https://img.shields.io/static/v1?label=|&message=REPO&color=23555f&style=plastic&logo=github&logo-color=white"/>
+        <img height="30" src="https://img.shields.io/static/v1?label=|&message=CLICK_HERE_FOR_GITHUB_REPO&color=23555f&style=plastic&logo=github&logo-color=white"/>
       </a> <!--Click website icon link to open a new window to Shoppin'It Group Project website-->
       <a target="_blank" href="https://shoppinit.onrender.com/" >
-        <img src="https://img.shields.io/static/v1?label=|&message=WEBSITE&color=cdf998&style=plastic&logo=wordpress&logo-color=white"/>
+        <img height="30" src="https://img.shields.io/static/v1?label=|&message=CLICK_HERE_FOR_WEBSITE&color=cdf998&style=plastic&logo=wordpress&logo-color=white"/>
       </a>
       </p> <!--Desciption of technologies and functionality of Shoppin'It Group Project-->
         <p><strong>MVC, HTML, CSS, JS, Node.js, Express.js, Mongoose, MongoDB, Passport.js, Session, Flash, Morgan, dotenv, Git/Github, Heroku</strong> - Signup to create an account and login to your groceries list. Full stack MVC CRUD app allowing you get your grocery list, add new groceries, update your grocery list by marking out groceries shopped and delete groceries.Hosted on Heroku for back end application.</p>
