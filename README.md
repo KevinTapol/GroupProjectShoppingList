@@ -6,8 +6,8 @@
       </a>
       <br />
       <p align="center"> <!--Click repo icon link to open a new window to Shoppin'It Group Project GitHub repo-->
-      <a target="_blank" href="https://github.com/KevinTapol/GroupProjectShoppingList" >
-        <img height="30" src="https://img.shields.io/static/v1?label=|&message=CLICK_HERE_FOR_GITHUB_REPO&color=23555f&style=plastic&logo=github&logo-color=white"/>
+      <!-- <a target="_blank" href="https://github.com/KevinTapol/GroupProjectShoppingList" >
+        <img height="30" src="https://img.shields.io/static/v1?label=|&message=CLICK_HERE_FOR_GITHUB_REPO&color=23555f&style=plastic&logo=github&logo-color=white"/> -->
       </a> <!--Click website icon link to open a new window to Shoppin'It Group Project website-->
       <a target="_blank" href="https://shoppinit.onrender.com/" >
         <img height="30" src="https://img.shields.io/static/v1?label=|&message=CLICK_HERE_FOR_WEBSITE&color=cdf998&style=plastic&logo=wordpress&logo-color=white"/>
