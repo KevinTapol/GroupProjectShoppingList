@@ -1,8 +1,8 @@
 <td width="50%" valign="top"> <!--Start of Shoppin' It taking 50% of view window-->
-      <h3 align="center">Shoppin' It (Group Project)</h3>
+      <h1 align="center">Shoppin' It (Group Project)</h1>
       <br /> <!--Click the Shoppin'It image to open a new window to Nasa API website-->
       </a><a target="_blank" href="https://shoppinit.onrender.com/">
-        <img src="./public/images/ShoppinIt.png" width="100%"  alt="#"/>
+        <img src="./public/images/ShoppinIt.gif" width="100%"  alt="#"/>
       </a>
       <br />
       <p align="center"> <!--Click repo icon link to open a new window to Shoppin'It Group Project GitHub repo-->
